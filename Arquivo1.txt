@@ -1,0 +1,8 @@
+var idade: Number,
+         nome : String;
+    
+    idade := '31';
+    nome := rafaela
+
+    log.message(idade);
+    log.message(nome);
