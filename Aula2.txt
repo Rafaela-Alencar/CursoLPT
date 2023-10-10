@@ -1,0 +1,18 @@
+var idade: Number;
+         nome : String;
+    
+    idade := '31';
+    nome := rafaela
+
+    log.message(idade);
+    log.message(nome);
+
+-----------------------------------------
+
+var nuber1 = 2
+var nuber2 =3
+
+nuber1 * nuber2 = 6
+
+log.message(nuber1 * nuber2);
+

@@ -1,0 +1,22 @@
+procedure se;
+
+var
+    teste : boolean;
+    valor : interger;
+    palavra : string;
+
+begin 
+    
+    teste : = true;
+    valor := 10;
+    palavra := 'curso'
+
+    if palavra = 'curso' then
+     begin
+        log.message('sua condição é verdadeira');
+        log.checkpoint(palavra);
+     end
+    else
+        log.message('sua condição é falsa');
+end;
+   
