@@ -1,0 +1,50 @@
+// ESTRUTURA DE REPETIÇÃO//
+
+//Estruta while = enquanto//
+
+procedure enquanto;
+
+ var
+ contador : interger;
+
+ begin
+  contador: =10;
+
+  while contador >= 0 do 
+   begin
+    log.message(contador);
+    contador= : =contador -1;
+
+   end;
+
+end;
+
+procedure enquantoSe;
+
+var contador :interger;
+
+begin
+ contador : = 10;
+
+    while contador >= 0 do
+    begin
+    if contador = 5 then
+     begin 
+        contador := contador + 10 ;
+        log.message(contador);
+
+        end else
+
+         log.message(contador);
+         contador : = contador -1
+
+        end;
+
+end;
+
+
+
+
+
+
+

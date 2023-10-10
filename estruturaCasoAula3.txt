@@ -1,0 +1,24 @@
+procedure casoSimples
+
+var
+
+valor : interger
+nome : string
+
+begin
+ valor :=30;
+ nome := 'bruna'
+
+    case(valor) of;
+    1: log.message('meu valor é 1');
+    10: log.message('meu valor é 10');
+    100: log.message('meu valor é 10');
+
+else
+    log.error('valor inesperado');
+
+
+end;
+
+
+

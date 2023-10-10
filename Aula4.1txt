@@ -1,0 +1,57 @@
+// ESTRUTURA PARA//
+
+// ESTRUTURA FOR//
+
+
+procedure para;
+
+ var 
+  contador , numero : interger;
+  
+
+  begin 
+    contador := 0;
+    numero := 10;
+
+  for contador := 5 to numero -1 do
+
+  begin
+    log.message(numero);
+    numero : = numero -1;
+
+   end;
+
+end;
+
+
+-------------------------------
+
+procedure forCase;
+
+var
+ contador, numero : interger;
+begin
+  contador : = 0;
+  numero := 10;
+
+
+  for contador:= 0 to numero -1 do
+   begin
+    case  numero of
+     9: log.message('nove');
+     8: log.message('oito');
+
+     else
+      log.message(numero);
+
+      end;
+
+
+      numero : = numero -1;
+
+    end;
+
+ end;
+
+
+  

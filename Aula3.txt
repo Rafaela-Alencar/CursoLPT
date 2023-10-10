@@ -19,4 +19,131 @@ begin
     else
         log.message('sua condição é falsa');
 end;
-   
+
+// operadores lógicos / AND / OR / NOT
+
+procedure operador AND;
+
+var
+    teste : boolean
+
+    valor : interger
+
+    palavra : string
+
+begin
+
+    teste := true;
+    valor := 20;
+    palavra: = 'curso'
+
+    // Operador AND
+
+    if (teste = true) and (valor = 20) then
+
+    begin
+        log.message('sua condição é verdadeira);
+        log.checkpoint(teste);
+        log.checkpoint(valor);
+
+    end else
+        log.message('sua condição é falsa);
+
+end;
+
+// operador OR
+
+procedure operador OR;
+
+var
+    teste : boolean
+
+    valor : interger
+
+    palavra : string
+
+begin
+
+    teste := true;
+    valor := 20;
+    palavra: = 'curso'
+
+    // Operador OR
+
+    if (teste = true) OR (valor = 20) then
+
+    begin
+        log.message('sua condição é verdadeira);
+        log.checkpoint(teste);
+        log.checkpoint(valor);
+
+    end else
+        log.message('sua condição é falsa);
+
+end;
+
+
+
+
+ // Operador NOT
+
+procedure operadorNOT;
+
+var
+    teste : boolean
+
+    valor : interger
+
+    palavra : string
+
+begin
+
+    teste := false;
+    valor := 20;
+    palavra: = 'curso';
+
+
+    if NOT (valor = 20) then
+
+    begin
+        log.message('sua condição é verdadeira);
+        log.checkpoint(valor);
+
+    end else
+        log.message('sua condição é falsa);
+
+end;
+
+// Combinando operadores
+
+
+procedure combinandoOperadores;
+
+var
+    teste : boolean
+
+    valor : interger
+
+    palavra : string
+
+begin
+
+    teste := false;
+    valor := 20;
+    palavra: = 'curso';
+
+
+    if (not(valor =20)) and (palavra = 'teste') then
+
+    begin
+        log.message('sua condição é verdadeira);
+        log.checkpoint(palavra);
+
+    end else
+        log.message('sua condição é falsa');
+
+end;
+
+
+
+
