@@ -1,0 +1,17 @@
+uses 
+    aula5funcoes;
+
+procedure calculadora;
+
+var
+ multiplicar : interger;
+
+ total : interger
+
+ begin
+
+ multiplicar : = 5;
+
+  total : = aula5funcoes.multiplicar(multiplicado);
+
+ end;

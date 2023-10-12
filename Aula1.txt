@@ -1,0 +1,24 @@
+procedure variavel;
+var
+	valor; integer;
+begin
+	valor: =10;
+	log.message(valor);
+
+end;
+
+
+procedure inteiro;
+var
+	valor1 : integer;
+	valor2 : interger;
+	total : interger;
+	
+begin
+
+	valor1 :=500;
+	valor2 :=1000;
+	total := valor1+valor2;
+	log.message(total);
+	
+end;
