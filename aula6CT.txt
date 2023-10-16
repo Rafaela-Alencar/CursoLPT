@@ -1,0 +1,9 @@
+uses 
+aula6menu;
+
+procedure gravar tranferencia
+
+begin
+    aula6menu.abrirRotina('632');
+
+end;

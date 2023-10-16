@@ -1,0 +1,6 @@
+procedure abrirRotina (numero : string);
+
+begin
+    Sys.process ('PCINF000').VCLObject('WallpaperMenuPCI).CLObject('edtCodigoRotina').Keys(numero + '[enter]')
+
+end;

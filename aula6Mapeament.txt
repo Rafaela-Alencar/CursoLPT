@@ -1,0 +1,36 @@
+procedure banco origem (codigoBanco: string);
+
+ begin
+    // usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui//  .Keys(codigoBanco)
+ end;
+
+
+Procedure moeda origem (codigoMoeda : string);
+ begin
+    // usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigoMoeda)
+ end;
+
+Procedure banco destino (codigoBanco : string);
+begin
+    // usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigoBanco)
+ end;
+
+ Procedure moeda destino (codigoMoeda : string);
+ begin
+    // usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigoMoeda)
+ end;
+
+Procedure codigo historico ( codigo : interger)
+
+begin
+// usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigo)
+end;
+
+Procedure valor (valor : string)
+
+begin
+// usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(valor)
+
+end;
+
+Procedure salvar (salvar : )
