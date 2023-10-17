@@ -12,25 +12,46 @@ Procedure moeda origem (codigoMoeda : string);
 
 Procedure banco destino (codigoBanco : string);
 begin
-    // usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigoBanco)
+    // usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigoBanco);
  end;
 
  Procedure moeda destino (codigoMoeda : string);
  begin
-    // usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigoMoeda)
+    // usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigoMoeda);
  end;
 
 Procedure codigo historico ( codigo : interger)
 
 begin
-// usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigo)
+// usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(codigo);
 end;
 
 Procedure valor (valor : string)
 
 begin
-// usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(valor)
+// usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .Keys(valor);
 
 end;
 
 Procedure salvar (salvar : )
+
+begin
+// usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .click;
+
+end;
+
+procedure confirmação;
+
+begin
+  
+  if  // / usa o object spy e seleciona o campo, ao soltar ele vai gerar o código para coloca aqui // .exist then;
+
+  begin 
+  log.checkpoint('registro gravado');
+  // aqui coloca o mapeamento do 'sim'
+  end
+    else
+        log.err('mensagem de confirmação não apareceu');
+end;
+
+end

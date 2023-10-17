@@ -1,9 +1,18 @@
 uses 
-aula6menu;
+aula6menu; aula6mapeament; 
 
 procedure gravar tranferencia
 
 begin
     aula6menu.abrirRotina('632');
+
+    aula6mapeament.bancoOrigem('1')
+    aula6mapeament.moedaOrigem('d')
+    aula6mapeament.bancoDestino('341')
+    aula6mapeament.moedaDestino('d');
+    aula6mapeament.historico();
+    aula6mapeament.valor('90');
+    aula6mapeament.gravar;
+    aula6mapeament.confirmacao;
 
 end;
